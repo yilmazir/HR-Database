@@ -24,23 +24,23 @@ trends, and other workforce indicators.
 
 Relationship Details:
 1:1 Relationships:
-○ Employee to Jobs: One employee can only have one job.
+> Employee to Jobs: One employee can only have one job.
 
 1:M Relationships:
-○ Region to Country: One region can have multiple countries
+> Region to Country: One region can have multiple countries
 belonging to it.
-○ Country to Location: One country can have several locations.
-○ Location to Department: One location can be the address of
+Country to Location: One country can have several locations.
+> Location to Department: One location can be the address of
 multiple departments.
-○ Department to Employee: One department can work with several
+> Department to Employee: One department can work with several
 employees.
-○ Employee to Manager: One manager can oversee multiple
+> Employee to Manager: One manager can oversee multiple
 employees.
-○ Employee to Dependent: One employee can have several
+> Employee to Dependent: One employee can have several
 dependents linked to their record.
 
 M:N Relationship:
-○ Employee to Dependents: This many-to-many relationship exists
+> Employee to Dependents: This many-to-many relationship exists
 since an employee can have multiple dependents at different points
 in their career, and a manager can be assigned to many employees
 depending on the number of staff employed. This is implemented
